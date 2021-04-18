@@ -1,0 +1,229 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-image:url(images/background_img.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+}
+
+.reg_body
+{
+	width: 600px;
+    height: 846px;
+
+    background-color: #153f88;
+    border: 0px solid;
+    border-radius: 60px;
+    background-image: url(images/bg_danger.jpg);
+    background-repeat: no-repeat;
+   	box-shadow:`inset 5px 5px 5px rgba(68,68,68,0.6);
+
+	
+}
+
+.text_registration
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	color: white;
+	letter-spacing: 5px;
+	margin-top: 53px;
+	
+
+	font-weight: normal;
+}
+
+.user_name_area
+{
+	width: 470px;
+	height: 72px;
+
+	text-align: center;
+	background-color: white;
+	border: 4px solid;
+	border-color: #423737;
+	border-radius: 20px;
+	margin-top: 31px;
+    margin-left: 59px;
+    box-shadow: inset 5px 5px 5px rgba(68,68,68,0.6);
+    font-size: 18px;
+}
+
+.user_name_area2
+{
+	width: 470px;
+	height: 72px;
+
+	text-align: center;
+	background-color: white;
+	border: 4px solid;
+	border-color: #423737;
+	border-radius: 15px;
+	margin-top: 34px;  	
+    margin-left: 56px;
+    box-shadow: inset 5px 5px 5px rgba(68,68,68,0.6);
+    font-size: 18px;
+}
+
+.button_reg
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width:250px;
+	height: 75px;
+	color: white;
+	font-size: 32px;
+	font-family: 'Kanit', sans-serif;
+
+	border: 4px solid;
+    border-radius: 60px;
+
+	background-color:black;
+
+	margin-top: 45px;
+    margin-left: 165px;
+
+    letter-spacing: 2px;
+}
+
+.group_el_position
+{
+	width: 100%;
+	
+	margin-top: 90px;
+    margin-left: 0px;
+}
+
+.pass_icon
+{
+	color: #434348 !important;
+    margin-left: -373px;
+    font-size: 20px;
+}
+
+.username_icon
+{
+	color: #434348 !important;
+    margin-left: -373px;
+    font-size: 20px;
+	
+}
+
+.reg_bg_color
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 483px;
+	height: 63px;
+	background-color:#0b0b0b;
+
+	font-family: 'Special Elite', cursive;
+	font-size: 20px !important;
+	text-align: center;
+
+
+	
+}
+
+@media only screen and (max-width: 640px)
+
+{
+	.width_mobile
+	{
+
+		width: 94%;
+		height: 90%;
+		
+	}
+
+	.group_el_position 
+	{
+    
+	   
+		margin-top: 18px;
+		margin-left: -26px;
+    }
+
+    .user_name_area 
+    {
+	    width: 270px;
+	    height: 60px;
+	    border-radius: 20px;
+	    margin-top: 10px;
+	    font-size: 15px;
+
+    }
+
+    .username_icon 
+    {
+    	margin-left: -245px;
+    }
+
+    .user_name_area2 
+    {
+	    width: 270px;
+	    height: 60px;
+	    border-radius: 20px;
+	    margin-top: 10px;
+	    font-size: 15px;
+	    padding: 4px;
+    }
+
+    .pass_icon 
+    {
+    	margin-left: -244px;
+	}
+
+	.button_reg
+	{
+		width: 208px;
+		height: 66px;
+		margin-left: 94px;
+		margin-top: 28px;
+		font-size: 30px;
+	}
+
+	.text_registracija
+	{
+		font-family: 'Special Elite', cursive;
+		font-size: 14px !important;
+
+	}
+
+	.body
+	{
+
+		background-attachment: cover;
+	}
+
+	.reg_body
+	{
+		height: 600px;
+	}
+	.reg_bg_color
+	{	
+		width: 288px;
+		font-size: 15px !important;
+
+	}
+	
