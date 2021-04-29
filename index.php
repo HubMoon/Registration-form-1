@@ -24,7 +24,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
 
 
-    <title>Registration / form 2 sinhronizacija</title>
+    <title>Registration / form 2 </title>
 
 
   </head>
